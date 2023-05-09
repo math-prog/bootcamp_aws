@@ -90,8 +90,8 @@ for i in range(numEvents):
     }
 
     # Escreve dados em um arquivo JSON localmente
-    # now = datetime.now()
-    # frt_date = now.strftime("%d_%m_%Y_%H_%M_%S")
+    now = datetime.now()
+    frt_date = now.strftime("%d_%m_%Y_%H_%M_%S")
 
     #with open(f"event_customers_mobile{i}_{frt_date}.json", "w") as f:
     #    time.sleep(1)
