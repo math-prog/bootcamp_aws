@@ -127,10 +127,10 @@ def upsert_tables(spark, table1, table2):
     print("\n printing the table source after merge...")
     df = deltaTable_1.toDF()
     df.show()
-
-bucket_raw = 's3a://raw-bootcampde-872226808963'
-bucket_processed = 's3://processed-bootcampde-872226808963'
-bucket_curated = 's3a://curated-bootcampde-872226808963'
+    
+bucket_raw = 's3://raw-bootcampde-411074258416'
+bucket_processed = 's3://processed-bootcampde-411074258416'
+bucket_curated = 's3://curated-bootcampde-411074258416'
 
 print ("Dados de customers...\n")
 

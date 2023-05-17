@@ -71,9 +71,9 @@ def write_curated(bucket, path, dataframe, data_format, mode):
         print (f"Falha para escrever dados na processed: {err}")
         return 1
 
-bucket_raw = 's3a://raw-bootcampde-872226808963'
-bucket_processed = 's3://processed-bootcampde-872226808963'
-bucket_curated = 's3a://curated-bootcampde-872226808963'
+bucket_raw = 's3://raw-bootcampde-411074258416'
+bucket_processed = 's3://processed-bootcampde-411074258416'
+bucket_curated = 's3://curated-bootcampde-411074258416'
 
 print ("Dados de customers...\n")
 # Ler dados da raw
